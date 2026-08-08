@@ -1,0 +1,14 @@
+{
+  "hsToolsmith": true,
+  "title": "pose-telemetry-bridge",
+  "pitch": "Streams pose-tracking data to web games via WebSocket with a stable, typed message schema.",
+  "language": "typescript",
+  "category": "Middleware",
+  "keyFeatures": [
+    "Typed telemetry protocol (zod-powered runtime validation)",
+    "WebSocket server/client helpers with reconnect and buffering",
+    "Smoothing and rate-limiting utilities for jittery pose streams",
+    "Debug overlay feed (FPS, dropped frames, latency)"
+  ],
+  "targetUsers": "Web/game developers who need reliable real-time pose/telemetry transport into Three.js/React frontends."
+}
